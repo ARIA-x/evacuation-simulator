@@ -1,0 +1,354 @@
+{
+    "UniverseID": "default",
+    "BrokerAddress": "tcp://127.0.0.1:1883",
+    "MinimumStepTime": 1,
+    "MapWidth": 10951.0,
+    "MapHeight": 10151.0,
+    "FloodMeshSize": 50.0,
+    "RootPath": "../",
+    "UniverseFilePath": "./setting_universe.csv",
+    "FloodFilePath": "../agent/floods/flood_simu_%d.csv",
+    "Potential": [
+        {
+            "MeshSize": 20.0,
+            "PersonFilePath": "./setting_persons.csv",
+            "InternalMaps": "./internal/potential_person_%d.csv",
+            "ExternalMaps": [
+                {
+                    "FilePath": "./external_nodes.csv",
+                    "IsJSON": false,
+                    "IsWall": false,
+                    "IsShelter": false
+                },
+                {
+                    "FilePath": "./external_shelter.json",
+                    "IsJSON": true,
+                    "IsWall": false,
+                    "IsShelter": true
+                }
+            ],
+            "DisasterMaps": [
+                {
+                    "FilePath": "./disaster/flood_simu_10.csv",
+                    "Labels": [
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_12.csv",
+                    "Labels": [
+                        12,
+                        13,
+                        14,
+                        15,
+                        16
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_17.csv",
+                    "Labels": [
+                        17,
+                        18,
+                        19,
+                        20,
+                        21
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_22.csv",
+                    "Labels": [
+                        22,
+                        23,
+                        24,
+                        25,
+                        26
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_27.csv",
+                    "Labels": [
+                        27,
+                        28,
+                        29,
+                        30,
+                        31
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_32.csv",
+                    "Labels": [
+                        32,
+                        33,
+                        34,
+                        35,
+                        36
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_37.csv",
+                    "Labels": [
+                        37,
+                        38,
+                        39,
+                        40,
+                        41
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_42.csv",
+                    "Labels": [
+                        42,
+                        43,
+                        44,
+                        45,
+                        46
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_47.csv",
+                    "Labels": [
+                        47,
+                        48,
+                        49,
+                        50,
+                        51
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_52.csv",
+                    "Labels": [
+                        52,
+                        53,
+                        54,
+                        55,
+                        56
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_57.csv",
+                    "Labels": [
+                        57,
+                        58,
+                        59,
+                        60,
+                        61
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_62.csv",
+                    "Labels": [
+                        62,
+                        63,
+                        64,
+                        65,
+                        66
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_67.csv",
+                    "Labels": [
+                        67,
+                        68,
+                        69,
+                        70,
+                        71
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_72.csv",
+                    "Labels": [
+                        72,
+                        73,
+                        74,
+                        75,
+                        76
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_77.csv",
+                    "Labels": [
+                        77,
+                        78,
+                        79,
+                        80,
+                        81
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_82.csv",
+                    "Labels": [
+                        82,
+                        83,
+                        84,
+                        85,
+                        86
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_87.csv",
+                    "Labels": [
+                        87,
+                        88,
+                        89,
+                        90,
+                        91
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_92.csv",
+                    "Labels": [
+                        92,
+                        93,
+                        94,
+                        95,
+                        96
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_97.csv",
+                    "Labels": [
+                        97,
+                        98,
+                        99,
+                        100,
+                        101
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_102.csv",
+                    "Labels": [
+                        102,
+                        103,
+                        104,
+                        105,
+                        106
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_107.csv",
+                    "Labels": [
+                        107,
+                        108,
+                        109,
+                        110,
+                        111
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_112.csv",
+                    "Labels": [
+                        112,
+                        113,
+                        114,
+                        115,
+                        116
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_117.csv",
+                    "Labels": [
+                        117,
+                        118,
+                        119,
+                        120,
+                        121
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_122.csv",
+                    "Labels": [
+                        122,
+                        123,
+                        124,
+                        125,
+                        126
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_127.csv",
+                    "Labels": [
+                        127,
+                        128,
+                        129,
+                        130,
+                        131
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_132.csv",
+                    "Labels": [
+                        132,
+                        133,
+                        134,
+                        135,
+                        136
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_137.csv",
+                    "Labels": [
+                        137,
+                        138,
+                        139,
+                        140,
+                        141
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_142.csv",
+                    "Labels": [
+                        142,
+                        143,
+                        144,
+                        145,
+                        146
+                    ]
+                },
+                {
+                    "FilePath": "./disaster/flood_simu_147.csv",
+                    "Labels": [
+                        147,
+                        148,
+                        149,
+                        150
+                    ]
+                }
+            ],
+            "Media": [
+                {
+                    "Type": "earthquake",
+                    "Step":10,
+                    "Duration":0,
+                    "Acquisition": 0.5,
+                    "Size": 1000000,
+                    "Positions": [{"X":0,"Y":0}]
+                },
+                {
+                    "Type": "radio",
+                    "Step":30,
+                    "Duration":10,
+                    "Acquisition": 0.5,
+                    "Size": 1000,
+                    "Positions": [{"X":2000,"Y":7000}]
+                },
+                {
+                    "Type": "car",
+                    "Step":30,
+                    "Duration":40,
+                    "Acquisition": 0.5,
+                    "Size": 600,
+                    "Positions": [{"X":9920,"Y":1060},{"X":9920,"Y":1080},{"X":9900,"Y":1120},{"X":9880,"Y":1120},{"X":9880,"Y":1180},{"X":9900,"Y":1180},{"X":9900,"Y":1240},{"X":9920,"Y":1240},{"X":9920,"Y":1300},{"X":9940,"Y":1300},{"X":9940,"Y":1360},{"X":9960,"Y":1360},{"X":9960,"Y":1420},{"X":9980,"Y":1420},{"X":9980,"Y":1480},{"X":10000,"Y":1480},{"X":9960,"Y":1500},{"X":9940,"Y":1500},{"X":9940,"Y":1520},{"X":9940,"Y":1540},{"X":9960,"Y":1580},{"X":9960,"Y":1600},{"X":9980,"Y":1640},{"X":9980,"Y":1660},{"X":10000,"Y":1700},{"X":10000,"Y":1720},{"X":10020,"Y":1760},{"X":10020,"Y":1780},{"X":10040,"Y":1820},{"X":10040,"Y":1840},{"X":10060,"Y":1880},{"X":10060,"Y":1900},{"X":10080,"Y":1940},{"X":10080,"Y":1960},{"X":10100,"Y":2000},{"X":10100,"Y":2020},{"X":10120,"Y":2060},{"X":10120,"Y":2080},{"X":10120,"Y":2140},{"X":10140,"Y":2140},{"X":10140,"Y":2200},{"X":10120,"Y":2200},{"X":10080,"Y":2220}]
+                },
+                {
+                    "Type": "mass",
+                    "Step":100,
+                    "Duration":0,
+                    "Acquisition": 2.0,
+                    "Size": 1000000,
+                    "Positions": [{"X":0,"Y":0}]
+                }
+            ]
+        }
+    ]
+}

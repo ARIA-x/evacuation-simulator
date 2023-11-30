@@ -1,0 +1,21 @@
+{
+    "UniverseID": "default",
+    "BrokerAddress": "tcp://127.0.0.1:1883",
+    "MinimumStepTime": 1,
+    "MapWidth": 10951.0,
+    "MapHeight": 10151.0,
+    "FloodMeshSize": 50.0,
+    "RootPath": "../",
+    "UniverseFilePath": "./setting_universe.csv",
+    "FloodFilePath": "./floods/flood_simu_%d.csv",
+    "Nodes": [
+        {
+            "MaximumInfluenceLength": 10,
+            "PersonFilePath": "./setting_persons.csv",
+            "NodeFilePath": "./nodes.csv",
+            "LinkFilePath": "./links.csv",
+            "ShelterFilePath": "./shelters.csv"
+        }
+    ],
+    "Potential": []
+}
